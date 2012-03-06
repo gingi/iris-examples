@@ -1,0 +1,47 @@
+BEGIN HEADER
+number_of_columns = 8
+number_of_rows = 33489
+Name = sbi_vs_avec
+_part_dir = /Users/olson/data/sorghum_compare_builds/sbi_vs_avec
+END HEADER
+
+BEGIN Column
+data_type = FLOAT
+name = UTR3
+END Column
+
+BEGIN Column
+data_type = FLOAT
+name = maxcover
+END Column
+
+BEGIN Column
+data_type = FLOAT
+name = total
+END Column
+
+BEGIN Column
+data_type = FLOAT
+name = CDS
+END Column
+
+BEGIN Column
+data_type = UINT
+name = tid
+END Column
+
+BEGIN Column
+data_type = UINT
+name = qid
+END Column
+
+BEGIN Column
+data_type = FLOAT
+name = UTR5
+END Column
+
+BEGIN Column
+data_type = FLOAT
+name = medcover
+END Column
+

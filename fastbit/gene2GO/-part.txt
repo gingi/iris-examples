@@ -1,0 +1,21 @@
+BEGIN HEADER
+number_of_columns = 3
+number_of_rows = 77756
+Name = gene2GO
+END HEADER
+
+BEGIN Column
+data_type = UINT
+name = gene_id
+END Column
+
+BEGIN Column
+data_type = CATEGORY
+name = GO_branch
+END Column
+
+BEGIN Column
+data_type = CATEGORY
+name = GO_term
+END Column
+

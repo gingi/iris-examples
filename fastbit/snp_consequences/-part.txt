@@ -1,0 +1,22 @@
+BEGIN HEADER
+number_of_columns = 3
+number_of_rows = 256329
+Name = snp_consequences
+_part_dir = snp_consequences
+END HEADER
+
+BEGIN Column
+data_type = UINT
+name = gene_id
+END Column
+
+BEGIN Column
+data_type = UINT
+name = snp_id
+END Column
+
+BEGIN Column
+data_type = UINT
+name = consequence_type_id
+END Column
+
